@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RizzAstro Portal - Jelajahi teknologi, astronomi, dan misteri alam semesta dengan tampilan cyber futuristik.">
+  <meta name="keywords" content="astronomi, galaksi, teknologi, black hole, alam semesta">
+  <meta name="author" content="RizzAstro Team">
+  <meta property="og:title" content="RizzAstro Portal">
+  <meta property="og:description" content="Portal futuristik untuk menjelajahi teknologi dan astronomi">
+  <meta property="og:type" content="website">
+  
+  <title>RizzAstro Portal - Jelajahi Alam Semesta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="stars"></canvas>
+<div class="overlay"></div>
+
+<header>
+  <div class="logo">RizzAstro</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#galaksi">Galaksi</a>
+    <a href="#teknologi">Teknologi</a>
+    <a href="#login">Login</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>WELCOME TO RIZZASTRO</h1>
+  <p>Portal futuristik untuk menjelajahi teknologi, astronomi, black hole, galaksi, dan misteri alam semesta. Dibuat dengan tampilan cyber modern dan efek animasi interaktif.</p>
+  <button class="btn" onclick="document.getElementById('login').scrollIntoView({behavior: 'smooth'})">MASUK PORTAL</button>
+</section>
+
+<section class="cards" id="galaksi">
+  <div class="card">
+    <h2>🌌 Galaksi</h2>
+    <p>Pelajari struktur galaksi, nebula, dan objek misterius di alam semesta.</p>
+  </div>
+  <div class="card">
+    <h2>🚀 Teknologi</h2>
+    <p>Eksplorasi teknologi masa depan dan perkembangan antariksa modern.</p>
+  </div>
+  <div class="card">
+    <h2>🛰 Satelit</h2>
+    <p>Mengenal satelit, sistem orbit, dan komunikasi luar angkasa.</p>
+  </div>
+</section>
+
+<div class="login-box" id="login">
+  <h2>LOGIN SYSTEM</h2>
+  <form id="loginForm">
+    <div class="input-box">
+      <input type="text" placeholder="Username" required>
+    </div>
+    <div class="input-box">
+      <input type="password" placeholder="Password" required>
+    </div>
+    <button type="submit" class="btn" style="width:100%">LOGIN</button>
+  </form>
+</div>
+
+<footer>
+  <p>© 2026 RizzAstro Portal System. All rights reserved.</p>
+  <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
