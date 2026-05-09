@@ -1,0 +1,8 @@
+{
+  "buildCommand": "echo 'Building RizzAstro Portal'",
+  "framework": "html",
+  "public": ".",
+  "env": {
+    "NEXT_PUBLIC_SITE_NAME": "RizzAstro Portal"
+  }
+}
